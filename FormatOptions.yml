@@ -61,6 +61,7 @@ commanddict:
     'aliases': ('aliases',)
 
     # Dev Commands:
+    'dev' : ('dev',)
     'versiondata': ('versiondata',)
     'idusers' : ('idusers',)
     'rwuserdata' : ('rwuserdata',)
