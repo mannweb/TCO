@@ -1,8 +1,0 @@
-{
-    "ExampleUser#1234": {
-        "id": 0123456789,
-        "nickname": null,
-        "dev": false,
-        "customcommands": {}
-    }
-}
