@@ -8,6 +8,8 @@ version : '0.1.4'
 
 status: ''
 
+adminpassword: 'password'
+
 ytdlv:
 
     'format' : 'bestaudio/best'
