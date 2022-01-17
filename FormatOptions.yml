@@ -1,0 +1,99 @@
+
+# Format data for extracting the information from YTDL.
+# Source address should bind to ipv4 since ipv6 addresses cause issues sometimes.
+
+clientsecret : ''
+
+version : '0.1.4'
+
+status: ''
+
+ytdlv:
+
+    'format' : 'bestaudio/best'
+    'extractaudio' : True
+    'audioformat' : 'mp3'
+    'outtmpl' : '%(extractor)s-%(id)s-%(title)s.%(ext)s'
+    'restrictfilenames' : False
+    'noplaylist' : True
+    'nocheckcertificate' : True
+    'ignoreerrors' : False
+    'logtostderr' : False
+    'quiet' : True
+    'no_warnings' : True
+    'default_search' : 'auto'
+    'source_address' : '0.0.0.0'
+    
+ytdlpl:
+
+    'format' : 'bestaudio/best'
+    'extractaudio' : False
+    'skip_download' : True
+    'audioformat' : 'mp3'
+    'outtmpl' : '%(extractor)s-%(id)s-%(title)s.%(ext)s'
+    'restrictfilenames' : False
+    'noplaylist' : False
+    'nocheckcertificate' : True
+    'ignoreerrors' : False
+    'logtostderr' : False
+    'quiet' : True
+    'no_warnings' : True
+    'default_search' : 'auto'
+    'source_address' : '0.0.0.0'
+    
+ffmpeg:
+
+    'before_options' : '-reconnect 1' # '-reconnect_streamed 1 -reconnect_delay_max=5',
+    'options' : '-vn'
+
+commandkey : '^'
+
+commanddict:
+
+    # General Commands:
+    'help' : ('help', 'h')
+    'patchnotes' : ('patchnotes',)
+    'roadmap' : ('roadmap',)
+
+    # Alias Commands:
+    'aliases': ('aliases',)
+
+    # Dev Commands:
+    'versiondata': ('versiondata',)
+    'idusers' : ('idusers',)
+    'rwuserdata' : ('rwuserdata',)
+
+    # Chat Commands:
+    'echo' : ('echo',)
+    'ship' : ('ship',)
+    'createpoll' : ('poll', 'createpoll')
+    'addpoll' : ('addpoll',)
+
+    # VC Commands:
+    'summon' : ('summon', 'join') 
+    'leave' : ('leave', 'kick')
+
+    # Music Commands:
+    'queue' : ('queue', 'q')
+    'play' : ('play', 'p')
+    'pause' : ('pause',)
+    'resume' : ('resume',)
+    'skip' : ('skip',)
+    'stop': ('stop',)
+    'clear': ('clear', 'dequeue', 'remove')
+
+    # Image Commands:
+    'cat' : ('cat', 'catto')
+    'dog' : ('dog', 'doggo')
+    'bird' : ('bird', 'birb')
+    'bread' : ('bread',)
+
+    # Photography:
+    'photo' : ('photo',)
+    'sunset' : ('sunset',)
+    'leeds' : ('leeds',)
+    'space' : ('space',)
+
+    # Custom Commands:
+    'createcc' : ('createcc',)
+    'removecc' : ('removecc',)

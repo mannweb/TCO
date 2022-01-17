@@ -1,0 +1,55 @@
+
+# Help menu, patchnotes from previous updates and a roadmap outlining future updates.
+
+help:
+    General: ^help | ^patchnotes | ^roadmap
+    Aliases: ^aliases
+    Chat: ^echo | ^ship <id> <id> | ^createpoll | ^addpoll
+    Custom Commands: ^createcc | ^removecc
+    Images: ^cat | ^doggo | ^birb | ^bread
+    Music: ^(p)lay <video> | ^(q)ueue <video> | ^pause | ^resume | ^stop | ^summon | ^leave | ^clear
+    Photography: ^photo | ^sunset | ^leeds | ^space
+    Videos: Borked.
+    Dev Only: ^idusers | ^rwuserdata
+
+patchnotes:
+    0.1.0: 
+        Announcements: Released Beta version 1.0.
+        New Features: None
+        Improvements: None
+        Fixes: None
+        Other: None
+    0.1.1: 
+        Announcements: None
+        New Features: None
+        Improvements: None
+        Fixes: None
+        Other: None
+    0.1.2: 
+        Announcements: None
+        New Features: None
+        Improvements: None
+        Fixes: None
+        Other: None
+    0.1.3: 
+        Announcements: None
+        New Features: None
+        Improvements: None
+        Fixes: None
+        Other: None
+    0.1.4: 
+        Announcements: None
+        New Features: None
+        Improvements: None
+        Fixes: None
+        Other: None
+
+roadmap: 
+    Improved voice functionality: Details go here.
+    Gif and video embedding: Details go here.
+    Game-specific functionality: Details go here.
+    Individual user and server-wide custom commands: Details go here.
+    Customisable UI: Details go here.
+    More detailed help: Details go here.
+    Proper website: Details go here.
+    Bread teleportation: Details go here.
